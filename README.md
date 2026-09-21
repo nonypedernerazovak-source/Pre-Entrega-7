@@ -3,29 +3,29 @@ Descripción del proyecto LunaBelle es una interfaz web interactiva para una lib
 El usuario puede visualizar el catálogo de libros, agregar nuevos libros, eliminarlos y buscarlos directamente desde la página, sin necesidad de recargar el navegador.
 ## Objetivos de la entrega
 Los principales objetivos de esta Pre-Entrega son: 
-#Manipular el DOM mediante JavaScript. 
-#Seleccionar elementos HTML desde JavaScript. 
-#Renderizar dinámicamente una colección de objetos. 
-#Agregar nuevos elementos.
-#Actualizar la información de la página sin recargarla. 
-#Implementar un buscador. 
-#Continuar desarrollando el simulador de la librería LunaBelle.
+-Manipular el DOM mediante JavaScript. 
+-Seleccionar elementos HTML desde JavaScript. 
+-Renderizar dinámicamente una colección de objetos. 
+-Agregar nuevos elementos.
+-Actualizar la información de la página sin recargarla. 
+-Implementar un buscador. 
+-Continuar desarrollando el simulador de la librería LunaBelle.
 📖 Funcionalidades 
-#Catálogo dinámico Los libros se almacenan en un array de objetos en JavaScript. 
+-Catálogo dinámico Los libros se almacenan en un array de objetos en JavaScript. 
 Cada libro contiene: 
-# ID
-#Título
-#Autor 
-#Género
-#Precio
-#Stock
+-ID
+-Título
+-Autor 
+-Género
+-Precio
+-Stock
 ## Agregar libros
 El usuario puede agregar un nuevo libro completando el formulario: 
-#Título
-#Autor 
-#Género 
-#Precio 
-#Stock
+-Título
+-Autor 
+-Género 
+-Precio 
+-Stock
 Al enviar el formulario:
 #Se crea un nuevo objeto. 
 #El objeto se agrega al array. 
