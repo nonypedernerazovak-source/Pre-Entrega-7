@@ -13,7 +13,7 @@ Los principales objetivos de esta Pre-Entrega son:
 📖 Funcionalidades 
 #Catálogo dinámico Los libros se almacenan en un array de objetos en JavaScript. 
 Cada libro contiene: 
-## ID
+# ID
 #Título
 #Autor 
 #Género
