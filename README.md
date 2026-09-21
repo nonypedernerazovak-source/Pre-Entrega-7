@@ -10,7 +10,7 @@ Los principales objetivos de esta Pre-Entrega son:
 -Actualizar la información de la página sin recargarla. 
 -Implementar un buscador. 
 -Continuar desarrollando el simulador de la librería LunaBelle.
-📖 Funcionalidades 
+## Funcionalidades 
 -Catálogo dinámico Los libros se almacenan en un array de objetos en JavaScript. 
 Cada libro contiene: 
 -ID
