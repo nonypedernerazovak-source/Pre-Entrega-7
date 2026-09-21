@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria LunaBelle Pre-Entrega 07</title>
+
+ <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer ></script>
+
+</head>
+<body>
+    <header>
+         <h1>Librería LunaBelle</h1> 
+         <p>Tu rincón favorito para encontrar nuevas historias</p>
+         </header> 
+
+         <main>
+            <!-- Formulario para agregar libros -->
+              <section class="formulario"> 
+                <h2>Agregar un nuevo libro</h2> 
+                <form id="formulario-libro"> 
+                  <input 
+                     type="text" 
+                     id="titulo" 
+                     placeholder="Título del libro" 
+                     required 
+                     > 
+                  <input 
+                     type="text" 
+                     id="autor" 
+                     placeholder="Autor" 
+                     required 
+                     > 
+                  <input type="text" 
+                     id="genero"
+                     placeholder="Género" 
+                     required > 
+                  <input 
+                     type="number" 
+                     id="precio" 
+                     placeholder="Precio" 
+                     min="0" 
+                     required 
+                     > 
+                 <input 
+                     type="number" 
+                     id="stock" 
+                     placeholder="Stock" 
+                     min="0" 
+                     required 
+                     > 
+                 <button type="submit"> 
+                    + Agregar libro 
+                </button> 
+            </form>
+
+         <!-- Mensaje de feedback -->
+           <p id="mensaje"></p> 
+        </section> 
+        
+        <!-- Buscador --> 
+          <section class="buscador">
+             <h2>Buscar un libro</h2>
+        
+        <input 
+          type="text" 
+          id="buscador" 
+          placeholder="Escribí el título del libro..." 
+          >
+     </section>
+
+<!-- Libros --> 
+   <section class="libros"> 
+     <h2> Catálogo LunaBelle</h2> 
+<!-- Acá JavaScript va a crear las tarjetas -->
+  <div id="contenedor-items"></div> 
+ </section> 
+</main> 
+<footer> 
+    <p>Librería LunaBelle</p> 
+</footer>
+    </body>
+</html>
